@@ -1,6 +1,6 @@
 # Sprint 1
 
-- [x] Choose project topic (Calise)
+- [x] Choose project topic
 - [x] Create individual Github accounts and join KSU-HMI class organization
 - [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role
 - [x] Create a readme.md file and commit any appropriate changes
