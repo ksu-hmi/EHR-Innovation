@@ -1,17 +1,16 @@
 # Sprint 1
 
 - [x] Choose project topic (Calise)
-- [x] Create individual Github accounts and join KSU-HMI class organization (ALL)
-- [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role (Ann)
-- [x] Create a readme.md file and commit any appropriate changes (Bunmi)
-- [x] Update readme.md file with project description and goals (Bunmi, Calise)
-- [x] Create projectroadmap.md file (Ann)
+- [x] Create individual Github accounts and join KSU-HMI class organization
+- [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role
+- [x] Create a readme.md file and commit any appropriate changes
+- [x] Update readme.md file with project description and goals
+- [x] Create projectroadmap.md file
 - [ ] Explore project-related Python codes and ensure they run properly
-- [x] Clone an existing repository to the team page (Calise)
-- [x] Update tasks for each sprint on the projectroadmad.md file (Ann, Calise)
+- [x] Clone an existing repository to the team page 
+- [x] Update tasks for each sprint on the projectroadmad.md file
       
 #### Respositories:
-* https://github.com/ByrneThomas/Medication_-Reminder_-For_The-_Elderly.git - This is a related repository that may be utilized as a base code. It provides some fundamental and basic codes resulting in outputs similar to some of the key features of our project.
 
 # Sprint 2
 
