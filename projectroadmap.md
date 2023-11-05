@@ -6,7 +6,7 @@
 - [x] Create a readme.md file and commit any appropriate changes
 - [x] Update readme.md file with project description and goals
 - [x] Create projectroadmap.md file
-- [ ] Explore project-related Python codes and ensure they run properly
+- [x] Explore project-related Python codes and ensure they run properly
 - [x] Clone an existing repository to the team page 
 - [x] Update tasks for each sprint on the projectroadmad.md file
       
