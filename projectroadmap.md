@@ -11,7 +11,8 @@
 - [x] Update tasks for each sprint on the projectroadmad.md file
       
 #### Respositories:
-1. https://github.com/Akash-Dev9/Clinical-Research-in-Healthcare 
+1. https://github.com/Akash-Dev9/Clinical-Research-in-Healthcare
+2. https://github.com/ksu-hmi/mysymptom.git
 # Sprint 2
 
 - [ ] Make updates and commit changes via the appropriate Github organization
