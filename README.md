@@ -1,2 +1,2 @@
 # EHR-Innovation
-An EHR that is universal so no matter what physician, specialist, hospital an individual goes to they can see previous appointment, lab tests, and diagnoses to cut costs, unessecary testing and to accuratly diagnose patient. Using the EHR to help predict if a patient is high risks for certain medical issues.
+The goal of this innovation is to produce an electronic health record that is compatible with different softwares. This iinocation will provide the physicians, specialists, hospitals, and patients with previous appointments, lab tests, and diagnoses to cut costs, unnecessary testing and to accurately diagnose patients.
