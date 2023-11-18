@@ -53,8 +53,8 @@ df.Symptom = df.Symptom.map(lambda x: re.sub('(.*)\\/(.*)', r'\1 \2', x))
 df.Disease = df.Disease.map(lambda x: re.sub('(.*)\\/(.*)', r'\1 \2', x))
 
 # gets rid of parenthesised words
-df.Symptom = df.Symptom.map(lambda x: re.sub('(.*)\\(.*\\)(.*)', r'\1\2', x))
-df.Disease = df.Disease.map(lambda x: re.sub('(.*)\\(.*\\)(.*)', r'\1\2', x))
+def.Symptom = df.Symptom.map(lambda x: re.sub('(.*)\\(.*\\)(.*)', r'\1\2', x))
+def.Disease = df.Disease.map(lambda x: re.sub('(.*)\\(.*\\)(.*)', r'\1\2', x))
 
 # gets rid of apostrophes and tokens of the sort '\xa0'
 df.Symptom = df.Symptom.map(lambda x: re.sub('\'', '', x))
