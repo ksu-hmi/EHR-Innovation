@@ -6,3 +6,4 @@ This project is licensed under the terms of the MIT license.
 ## Contributors
 - Nickya King (https://github.com/nickyaking)
 - Kesjiah Wilcher (https://github.com/Kesjiah)
+- Tiana Cliett (https://github.com/tcliett)
