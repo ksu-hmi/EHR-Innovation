@@ -15,13 +15,13 @@
 2. https://github.com/ksu-hmi/mysymptom.git
 # Sprint 2
 
-- [ ] Make updates and commit changes via the appropriate Github organization
-- [ ] Each member must commit changes for at least 6 codes that are of significant sizes
-- [ ] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period
-- [ ] Decide on a github repository that the entire group can agree on
-- [ ] Create a tentitive timeline of when we will complete assigned tasks
-- [ ] Check the dates on the repositories
-- [ ] Make significant changes as neccessary
+- [x] Make updates and commit changes via the appropriate Github organization
+- [x] Each member must commit changes for at least 6 codes that are of significant sizes
+- [x] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period
+- [x] Decide on a github repository that the entire group can agree on
+- [x] Create a tentitive timeline of when we will complete assigned tasks
+- [x] Check the dates on the repositories
+- [x] Make significant changes as neccessary
 
 
 
