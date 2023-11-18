@@ -153,7 +153,7 @@ s2 = pd.Series(list(disease))
 dic = {}
 
 # Map each word in the symptoms and diseases to a corresponding number that can be fed into Keras
-for i,j in enumerate(s1.append(s2).unique()):
+for i,j in enumerate(s1.append(s2).unq()):
     dic[j] = i
 # Now all the symptoms are represented by a number in the arrays 'symptoms', and 'diseases'
 symptoms = np.array(s1.map(dic), dtype = 'int32')
