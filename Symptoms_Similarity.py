@@ -79,7 +79,7 @@ unrepresented_words['Words'] = counts.keys()
 unrepresented_words['No. of Occurences'] = counts.values()
 unrepresented_words.to_csv('Unrepresented Words.csv')
 
-# reorganises the dataframe by grouping the data by symptoms instead of by diseases
+# re-organises the dataframe by grouping the data by symptoms instead of diseases
 frame = pd.DataFrame(df.groupby(['Symptom', 'Disease']).size()).drop(0, axis = 1)
 # the first entry contains only the disease and no symptom, so it is dropped
 frame = frame.iloc[1:]
