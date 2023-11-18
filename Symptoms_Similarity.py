@@ -168,7 +168,7 @@ labels = np.array(label, dtype = 'int32')
 lst = []
 
 # size of the vocabulary ,ie, no. of unique words in corpus
-vocab_size = len(dic)
+vocabulary_size = len(dic)
 
 # dimension of word embeddings
 vector_dim = 50
