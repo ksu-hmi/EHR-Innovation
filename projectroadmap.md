@@ -19,6 +19,7 @@
 - [ ] Each member must commit changes for at least 6 codes that are of significant sizes
 - [ ] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period
 - [ ] Decide on a github repository that the entire group can agree on
+- [ ] Create a tentitive timeline of when we will complete assigned tasks 
 
 
 # Sprint 3
