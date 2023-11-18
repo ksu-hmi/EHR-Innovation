@@ -153,6 +153,7 @@ symptom, disease, label = zip(*b)
 s1 = pd.Series(list(symptom))
 s2 = pd.Series(list(disease))
 dic = {}
+dic[i] = i
 
 # Map each word in the symptoms and diseases to a corresponding number that can be fed into Keras
 for i,j in enumerate(s1.append(s2).unq()):
