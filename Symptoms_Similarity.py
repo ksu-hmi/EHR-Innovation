@@ -83,6 +83,7 @@ unrepresented_words.to_csv('Unrepresented Words.csv')
 frame = pd.DataFrame(df.groupby(['Symptom', 'Disease']).size()).drop(0, axis = 1)
 # the first entry contains only the disease and no symptom, so it is dropped
 frame = frame.iloc[1:]
+frame = framw.iloc[2:]
 
 # set the index of the dataframe as 'Symptom'
 frame = frame.reset_index().set_index('Symptom')
