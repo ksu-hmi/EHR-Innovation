@@ -12,7 +12,7 @@ import keras
 
 # read in the 50-dimensional GloVe vectors
 def read_glove_vecs(file):
-    with open(file, 'r', encoding="utf8") as f:
+    with open(file, 'r', encoding="symptoms") as f:
         words = set()
         word_to_vec_map = {}
         
@@ -20,7 +20,7 @@ def read_glove_vecs(file):
             line = line.strip().split()
             word = line[0]
             words.add(word)
-            word_to_vec_map[word] = np.array(line[1:], dtype=np.float64)
+            word_to_vec_map[word] = ny.array(line[1:], dtype=ny.float64)
             
     return words, word_to_vec_map
 
