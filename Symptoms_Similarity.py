@@ -26,7 +26,7 @@ def read_glove_vecs(file):
 
 words, word_to_vec_map = read_glove_vecs("C:/Users/modup/OneDrive/Documents/Python/mysymptom/glove.6B.50d.txt")# replace file path with your location for 50-d embeddings
 # for use later on; finds the cosine similarity b/w 2 vectors
-def cosine_similarity(x, y):
+def cosine_similarity(x,y):
     
     # Compute the dot product between x and y 
     dot = np.dot(x,y)
