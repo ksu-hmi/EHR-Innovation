@@ -92,6 +92,7 @@ frame = frame.reset_index().set_index('Symptom')
 counts = {}
 for i in frame.index:
     counts[i] = counts.get(i, 0) + 1
+break
 	
 # sort the symptoms by their counts in descending order and save it into a dataframe
 import operator
