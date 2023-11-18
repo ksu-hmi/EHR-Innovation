@@ -68,7 +68,7 @@ df.Disease = df.Disease.map(lambda x: re.sub('\\xa0', ' ', x))
 counts = {}
 def remove(x):
     for i in x.split():
-        if not i in word_to_vec_map.keys():
+        if not i in word-to-vec-map.keys():
             counts[i] = counts.get(i, 0) + 1
 df.Symptom.map(lambda x: remove(x))
 df.Disease.map(lambda x: remove(x))
