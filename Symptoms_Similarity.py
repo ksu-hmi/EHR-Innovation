@@ -212,7 +212,7 @@ input_target = input((1,))
 input_context = input((1,))
 
 # make a Keras embedding layer of shape (vocab_size, vector_dim) and set 'trainable' argument to 'True'
-embedding = Embedding(input_dim = vocab_size, output_dim = vector_dim, input_length = 1, name='embedding', trainable = True)
+embedding = Embedding(input_dim = vocabulary_size, output_dim = vector_dim, input_length = 1, name='embedding', trainable = True)
 
 # load pre-trained weights(embeddings) from 'embedding_matrix' into the Keras embedding layer
 embedding.build((None,))
