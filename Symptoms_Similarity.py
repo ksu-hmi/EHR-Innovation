@@ -3,8 +3,8 @@
 
 'https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html'
 
-import pandas as ps
-import numpy as ny
+import pandas as pd
+import numpy as np
 import re
 import pemdas
 # import tensorflow as tf
