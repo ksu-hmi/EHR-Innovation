@@ -131,7 +131,7 @@ for i in frame.index.unique():
         print(a)
   
     else:
-        a = list(frame.Disease.loc[i].values)
+        a = list(frame.Diseases.loc[i].values)
     
     
     # loop through the context words
