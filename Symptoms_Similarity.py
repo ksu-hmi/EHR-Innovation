@@ -257,7 +257,7 @@ x = '25_epochs_0.6_similarity_seems_better.npy'
 new_vecs = np.load(x)
 
 # find the value to which cosine similarity is compared, from the file name
-similarity_score = float(re.findall('\\d{1,}\\.\\d{1,}', x)[0])
+similarity_score = float(re.findall('\\d{1,}\\.\\d{1,}', x)[1])
 
 # NOTE : the 'similarity_score' (like 0.6 in this case), is a hyperparameter that needs to be selected manually and tuned, to obtain
 # best performance
