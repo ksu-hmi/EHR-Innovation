@@ -22,6 +22,7 @@
 - [x] Create a tentitive timeline of when we will complete assigned tasks
 - [x] Check the dates on the repositories
 - [x] Make significant changes as neccessary
+- [ ] Attempt to run code changes
 - [ ] Evaluate the effectiveness of changes made
 - [ ] Complete sprint 2 quiz
 - [ ] Review changes
