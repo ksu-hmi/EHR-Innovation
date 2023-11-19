@@ -58,9 +58,9 @@ def.Symptom = df.Symptom.map(lambda x: re.sub('(.*)\\(.*\\)(.*)', r'\1\2', x))
 def.Disease = df.Disease.map(lambda x: re.sub('(.*)\\(.*\\)(.*)', r'\1\2', x))
 
 # gets rid of apostrophes and tokens of the sort '\xa0'
-df.Symptom = df.Symptom.map(lambda x: re.sub('\'', '', x))
-df.Disease = df.Disease.map(lambda x: re.sub('\'', '', x))
-df.Disease = df.Disease.map(lambda x: re.sub('\\xa0', ' ', x))
+def.Symptom = def.Symptom.map(lambda x: re.sub('\'', '', x))
+def.Disease = def.Disease.map(lambda x: re.sub('\'', '', x))
+def.Disease = def.Disease.map(lambda x: re.sub('\\xa0', ' ', x))
 
 # there may be words in the data set that don't have a representation in the 50-d GloVe vectors.
 # Now, new embeddings for such words can be generated, but they'll require humungous amounts of data
