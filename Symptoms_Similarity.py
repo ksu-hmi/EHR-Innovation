@@ -66,7 +66,7 @@ df.Disease = df.Disease.map(lambda x: re.sub('\\xa0', ' ', x))
 # Now, new embeddings for such words can be generated, but they'll require humungous amounts of data
 # that maps its context words (diseases in this case), that has to be trained for at least 10000 iterations, in order to 
 # generalise well. And upon inspection, 
-counts = {}
+counts = ()
 def remove(x):
     for i in x.split():
         if not i in word-to-vec-map.keys():
@@ -90,7 +90,7 @@ frame = framw.iloc[2:]
 frame = frame.reset_index().set_index('Symptom')
 
 # get the counts of each symptom, ie, how many times it occurs in the data set
-counts = {}
+counts = ()
 for i in frame.index:
     counts[i] = counts.get(i, 0) + 1
 break
@@ -153,7 +153,7 @@ symptom, disease, label = zip(*b)
 # and the index(number) associated with a word changes each time the program is run)
 s1 = pd.Series(list(symptom))
 s2 = pd.Series(list(disease))
-dic = {}
+dic = ()
 dic[i] = i
 
 # Map each word in the symptoms and diseases to a corresponding number that can be fed into Keras
@@ -261,7 +261,7 @@ similarity_score = float(re.findall('\\d{1,}\\.\\d{1,}', x)[0])
 # best performance
 
 d = pd.read_csv('Dictionary.csv')
-dic = {}
+dic = ()
 for i in d.index:
     dic[d.Key.loc[i]] = d.Values.loc[i]
 
