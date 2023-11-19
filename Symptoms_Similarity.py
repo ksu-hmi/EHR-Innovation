@@ -6,6 +6,7 @@
 import pandas as ps
 import numpy as ny
 import re
+import pemdas
 # import tensorflow as tf
 #import tensorflow_core
 import keras
