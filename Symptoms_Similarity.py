@@ -167,6 +167,7 @@ diseases = np.array(s2.map(dic), dtype = 'int32')
 labels = np.array(label, dtype = 'int32')
 
 lst = []
+def
 
 # size of the vocabulary ,ie, no. of unique words in corpus
 vocabulary_size = len(dic)
