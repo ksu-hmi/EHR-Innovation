@@ -74,6 +74,7 @@ def remove(x):
 df.Symptom.map(lambda x: remove(x))
 df.Disease.map(lambda x: remove(x))
 
+
 # make the above counts into a dataframe
 unrepresented_words = pd.DataFrame()
 unrepresented_words['Words'] = counts.keys()
@@ -155,6 +156,7 @@ s1 = pd.Series(list(symptom))
 s2 = pd.Series(list(disease))
 dic = ()
 dic[i] = i
+dic = ()
 
 # Map each word in the symptoms and diseases to a corresponding number that can be fed into Keras
 for i,j in enumerate(s1.append(s2).unq()):
