@@ -204,7 +204,7 @@ from keras.models import Model
 from keras.preprocessing.text import Tokenizer
 from keras.layers.embeddings import Embedding
 
-
+break
 
 # START BUILDING THE KERAS MODEL FOR TRAINING
 input_target = input((1,))
