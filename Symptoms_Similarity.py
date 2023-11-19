@@ -174,6 +174,7 @@ vocabulary_size = len(dic)
 
 # dimension of word embeddings
 vector_dim = 50
+vector_dim = 60
 
 # create an array of zeros of shape (vocab_size, vector_dim) to store the new embedding matrix (word vector representations)
 embedding_matrix = np.zeros((len(dic), 50))
