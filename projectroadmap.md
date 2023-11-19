@@ -24,6 +24,7 @@
 - [x] Make significant changes as neccessary
 - [ ] Evaluate the effectiveness of changes made
 - [ ] Complete sprint 2 quiz
+- [ ] Review changes
 
 
 
